@@ -1,0 +1,351 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/poppins-bold/Poppins-Bold.otf);
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+#home-page{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#sezione2{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#homepage{
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+}
+
+#homepage-id{
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
+
+img.screen{
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+a.download{
+  font-size: 20px;
+  font-family: Poppins-Bold;
+  transition: all 0.5s ease;
+  color: black;
+  background-color: white;
+  border: solid 2px black;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a.download:hover{
+  color: white;
+  font-family: Poppins-Bold;
+  background-color: green;
+  border: solid 2px green;
+}
+
+#footer{
+  min-height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+p.footer{
+  padding-top: 30px;
+  color: white;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+}
+
+p.fdesc{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial;
+}
+
+
+.parallax{
+    background-image: url(../img/parallax.jpg);
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url(../img/sfondo.jpg);
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url(../img/4.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#portofolio-gallery{
+  height: 100%;
+  width: 100%;
+}
+
+h1.parallax-title{
+  color: white;
+  font-size: 70px;
+  font-family: Poppins-Bold;
+  text-align: center;
+  margin:0;
+  padding-top: 20vw;
+}
+
+h1.parallax2-title{
+  color: white;
+  font-size: 90px;
+  font-family: Poppins-Bold;
+  margin: 0;
+  margin-left: 3px;
+  padding-top: 20vw;
+}
+
+h2.port-title{
+  color: black;
+  font-family: Poppins-Bold;
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+}
+
+p.parallax2-descrizione{
+  color: white;
+  font-size: 20px;
+  font-family: Poppins-Bold;
+  margin: 0;
+  margin-left: 3px;
+}
+
+h1.titolo{
+  text-align: center;
+  text-decoration: none;;
+}
+
+a.typewrite{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-family: Poppins-Bold;
+}
+
+@media screen and (max-width: 600px) {
+  h1.parallax-title{
+    color: white;
+    font-size: 15vw;
+    font-family: Poppins-Bold;
+    text-align: center;
+    margin:0;
+  }
+
+  h1.parallax2-title{
+    color: white;
+    font-size: 9vw;
+    font-family: Poppins-Bold;
+    margin: 0;
+    padding-top: 60vw !important;
+  }
+
+  p.parallax2-descrizione{
+    color: white;
+    font-size: 19px;
+    font-family: Poppins-Bold;
+    margin: 0;
+    margin-left: 3px;
+    background: black;
+  }
+
+  span.color{
+    color: black;
+  }
+
+  #homepage-id{
+    margin-top: 300px !important;
+  }
+
+  p.footer{
+    padding-top: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 14px !important;
+    text-align: center;
+  }
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  padding: 30px 10px;
+  transition: 0.4s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: Arial;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  font-family: Poppins-Bold;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.img-column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.img-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+#timeline{
+  height: 100%;
+  width: 100%;
+}
+
+#timeline-main{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+#timeline-a {
+  width: 400px;
+  margin: 0;
+}
+
+#timeline-atm p {
+
+  border-top: 2px dashed;
+  border-color: blue !important;
+  margin: 0; padding: 30px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+
+
+#timeline-atm p:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px;
+  padding-right: 0;
+}
+
+#timeline-atm p:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+#timeline-atm p:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+#timeline-atm p:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+
+h2.time-title{
+  color: black;
+  font-size: 60px;
+  font-family: Poppins-Bold;
+  text-align: center;
+  margin: 0;
+}
+
+b.time-sub{
+  font-family: Poppins-Bold;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
